@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+    {% include 'base/head.html'%}
+    <body>
+        <div class=" container d-flex justify-content-center">
+            <div class="row">
+                <div class="col-xl-5">
+                    <h3>Welcome {{session[first_name]}}</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-5">
+
+                    <div class="row">
+                        <div class="col-xl-5">
+                            <h4>All posted recipes </h4>
+                        </div>
+                        <div class="col-xl-5">
+                            <div class="row">
+                                <div class="col-xl-5">
+                                    <h4>+ Created</h4>
+                                </div>
+                                <div class="col-xl-5">
+                                    <h2>Logout</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Combine .table-dark and .table-striped to create a dark, striped table:</p>            
+                    <table class="table table-dark table-striped">
+                        <thead>
+                            <tr>
+                                <th>Firstname</th>
+                                <th>Lastname</th>
+                                <th>Email</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>John</td>
+                                <td>Doe</td>
+                                <td>john@example.com</td>
+                            </tr>
+                            <tr>
+                                <td>Mary</td>
+                                <td>Moe</td>
+                                <td>mary@example.com</td>
+                            </tr>
+                            <tr>
+                                <td>July</td>
+                                <td>Dooley</td>
+                                <td>july@example.com</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,1 @@
+py -m pipenv install flask pymysql flask_bcrypt
